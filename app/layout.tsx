@@ -5,23 +5,22 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Lady Funky Airbnb | Stay. Relax. Feel at Home.',
   description: 'A welcoming, peaceful stay at Ayetoro Estate, Ori Eru, Iwo, Osun State, Nigeria.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon-32x32.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon-dark-32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/favicon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/apple-touch-icon.png',
   },
 }
 
